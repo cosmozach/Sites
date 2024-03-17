@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Nunito&effect=shadow-multiple" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- facebook -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0" nonce="fhfTYjWR"></script>
+<!-- facebook -->
+
+
+    <div class="hero-img">
+        <div class="hero-txt nunito">
+          <h1>Marnie's Pet Care</h1>
+          <a href="#services"> <span class="button">Services </span> </a>
+        </div>
+      </div>
+
+      <div class="intro nunito">
+        <h1 class= "font-effect-shadow-multiple"> Hi, I'm Marnie 👋🏾</h1>
+          <p>I’ve been lucky enough to have grown up with a whole array of pets - dogs, cats, rabbits & hamsters.
+          <p>I also spent four years volunteering at an animal rescue, where I worked with a huge range of dogs of all different breeds, temperaments & ages so you can rest assure your four legged friends will be safe in my care.</p>
+          <p> I’m offering solo walks or multiple dogs from the same household at the minute & have a certificate in Canine First Aid, I’m fully insured and DBS checked. If you would like to arrange a free meet & greet regarding dog walking/pet sitting, please <a href=""> send me a message</a> or speak to me on <strong>07951179109</strong> </p> 
+      
+      </div>
+
+  <div class="container">
+   
+    <div class="item2"> 
+      <h2 class="font-effect-shadow-multiple" id="services"> Services</h2>
+      <span class="servicehead"> Dog Walking</span>
+      <ul> 
+        <li> 30 minute solo walk - <strong>£10</strong> <em>(2nd dog same household £5)</em>
+        <li> 1 hour solo walk - <strong>£14 </strong><em>(2nd dog same household £6)</em>
+      </ul>
+    <br>
+    <span class="servicehead"> Home visits </span> <br>
+    <span class="sidenote"> <em> Dogs/Cats/Small Animals. Includes feeding, water change, toilet breaks, play & cleaning litter tray.</em></span>
+      <ul>
+        <li> 15 minute home visit - <strong>£6</strong> <em>(2nd visit same day +£4)</em>
+        <li> 30 minute home visit - <strong> £8 </strong><em>(2nd visit same day +£5)</em>
+        <li> 1 hour home visit - <strong>£12</strong><em>(2nd visit same day +£10)</em>
+      </ul>
+        <br>
+        <span class="servicehead">Overnight Pet Sit</span> 
+        <p id="over">From <strong>£35</strong> per day - please <a href="https://wa.me/7951179709" target="_blank"> contact</a> for more info.</p>
+      
+    </div>
+
+     <!-- facebook
+     <div class="fb-page center" data-href="https://www.facebook.com/profile.php?id=61555720837273" 
+     data-tabs="timeline" 
+     data-width="500" 
+     data-height="" 
+     data-small-header="true" 
+     data-adapt-container-width="true" 
+     data-hide-cover="false" 
+     data-show-facepile="true">
+     <blockquote cite="https://www.facebook.com/profile.php?id=61555720837273" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=61555720837273">Marnie&#039;s Pet Care</a></blockquote>
+    </div>
+    facebook -->
+  </div>
+
+  
+  <footer class="foot">
+    <div class="social-button-links"> 
+      <a href="https://www.facebook.com/profile.php?id=61555720837273" target="_blank"> <img class="social-button fb" src="images/fb.png" alt="facebook logo"></a>
+      
+      <a href="https://wa.me/7951179709" target="_blank"> <img class="social-button wa" src="images/3225179_app_logo_media_popular_social_icon.png" alt="facebook logo"></a>
+    </div>
+  </footer>
+</body>
+</html>

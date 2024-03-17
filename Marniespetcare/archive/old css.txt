@@ -1,0 +1,143 @@
+body, html {
+  background-color: #eee9e0;
+  height: 100%;
+}
+ul {
+font-family: "Nunito", sans-serif, 'Brush Script MT', cursive;
+font-size: 20px;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+h2 {
+font-family: "Nunito", sans-serif, 'Brush Script MT', cursive;
+font-size: 50px;
+color: #444127;
+text-align: center;
+margin: 10px;
+}
+.servicehead{
+font: bold 23px "Nunito", sans-serif, 'Brush Script MT', cursive;
+color: #444127;
+}
+.sidenote {
+  font-size: 15px;
+}
+
+ul p {
+font-family: "Nunito", sans-serif, 'Brush Script MT', cursive;
+font-style: italic;
+}
+
+ul li {
+font-family: "Nunito", sans-serif, 'Brush Script MT', cursive;
+}
+.intro p { color:#444127;
+font-family: "Nunito", sans-serif, 'Brush Script MT', cursive;
+font-size: 20px;
+line-height: 110%;
+text-align: justify;
+font-style: normal;
+margin: 0 auto;
+max-width: 800px;
+box-sizing: border-box;
+margin-bottom: 1%;
+}
+#over {
+  font-family: "Nunito", sans-serif, 'Brush Script MT', cursive;
+font-size: 20px;
+}
+.container
+{
+font-family: "Nunito", sans-serif, 'Brush Script MT', cursive;
+flex-wrap: wrap;
+padding: 10px;
+box-sizing: border-box;
+justify-content: center;
+max-width: 800px;
+margin: 0 auto;
+
+}
+
+.item2 { /*services*/
+margin: 20px;
+font-family: "Nunito", sans-serif, 'Brush Script MT', cursive;
+color: #444127;
+}
+
+
+
+.intro h1 {color: #444127; /*Hi, I'm Marnie*/
+font-size: 3em;
+text-align: center;
+font-family: "Nunito", sans-serif, 'Brush Script MT', cursive;
+
+}
+.hero-img {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/ted.jpg);
+  width: 100%;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.button {
+transform: scale(1);
+background-color: #E3B373; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+border-radius: 22px;
+}
+
+button:hover {
+background-color: #56301D;
+}
+
+.hero-txt {
+  font-family: "Nunito", sans-serif, 'Brush Script MT', cursive;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #F0DBB1 ;
+  text-shadow: 4px 4px 4px #181818;
+  margin: 0.3em;
+}
+
+.nunito h1 {
+  font-family: "Nunito", sans-serif, 'Brush Script MT', cursive;
+  font-weight: 800;
+  font-style: normal;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.foot { background-color: #eee9e0;
+height: 100px;
+text-align: center;
+}
+
+.social-button {
+display: inline-block;
+cursor: pointer;
+text-align: center;
+width: 50px;
+margin: 10px 10px;
+}
+
+.social-button:hover {
+transform: scale(1.1);
+}
+
