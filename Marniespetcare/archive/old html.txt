@@ -33,7 +33,7 @@
       
       </div>
 
-  <div class="container">
+  <div class="service-cont">
    
     <div class="item2"> 
       <h2 class="font-effect-shadow-multiple" id="services"> Services</h2>

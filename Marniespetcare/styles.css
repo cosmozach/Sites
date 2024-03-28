@@ -7,6 +7,8 @@ body {
     display: flex;
     flex-direction: column;
     color: #4b3d21 ;
+    width: auto;
+  
 }
 
 .header {
@@ -16,6 +18,8 @@ body {
     font-weight: bold;
     height: 62px;
     align-items: center;
+    width: auto;
+ 
 }
 
 ul {
@@ -61,15 +65,26 @@ display: flex;
 
 .container {
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
 text-align: center;
 margin: auto;
+width: auto;
 }
 
-h4 {
-    width: 500px;
+.content {
+    width: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10%;
 }
 
+.subhead {
+    font-weight: 600;
+}
 img {
 width: 300px;
 }
